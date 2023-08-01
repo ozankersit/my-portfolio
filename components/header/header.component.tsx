@@ -10,7 +10,9 @@ const Header = () => {
   return (
     //Shadow değişebilir
     <nav className="flex justify-between items-center py-6 px-10 bg-white text-xl font-bold shadow-sm">
-      <div className="cursor-pointer">Ozan Kersit</div>
+      <div className="cursor-pointer">
+        <Link href={"/"}>Ozan Kersit</Link>
+        </div>
       <div>
         <li className="list-none flex gap-3 cursor-pointer">
             {linkElements.map((item) => (

@@ -2,6 +2,8 @@
 import styles from "./main.module.scss";
 import { motion } from "framer-motion";
 import ImageSection from "./image-section.component";
+import SocialSection from "./social-section.components";
+import Techs from "../techs/technologies.component";
 
 const Main = () => {
   return (
@@ -22,7 +24,9 @@ const Main = () => {
             <span className="font-bold">Front-End Developer</span> based in
             Turkey, Istanbul. 📍
           </div>
+          <SocialSection/>
         </div>
+        <Techs/>
       </div>
     </motion.div>
   );
