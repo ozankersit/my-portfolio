@@ -9,9 +9,9 @@ const Contact = () => {
         <div>
           <MailIcon/>
         </div>
-        <span className='text-blue text-2xl font-semibold'>
+        <a href='mailto:ozankersit@gmail.com' className='text-blue text-2xl font-semibold'>
           ozankersit@gmail.com
-        </span>
+        </a>
       </div>
     </div>
   )

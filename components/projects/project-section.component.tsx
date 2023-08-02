@@ -15,7 +15,7 @@ const ProjectSection: FC<IProps> = ({
   projectIcon,
 }) => {
   return (
-    <Link href={`${projectLink}`}>
+    <a target="_blank" href={`${projectLink}`}>
       <div className="flex gap-10 items-center xl:justify-between justify-center mt-10 bg-white p-5 rounded-xl transition duration-300 ease-in-out hover:scale-110 flex-wrap">
         <div>{projectIcon}</div>
         <div className="mb-auto mt-5">
@@ -35,7 +35,7 @@ const ProjectSection: FC<IProps> = ({
           </div>
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 
