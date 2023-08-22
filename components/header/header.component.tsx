@@ -10,8 +10,9 @@ const linkElements = [
 const Header = () => {
   return (
     //Shadow değişebilir
-    <nav className="flex justify-between items-center py-6 px-10 bg-white text-xl font-bold shadow-sm">
-      <div className="cursor-pointer">
+    <nav className="py-6 px-10 bg-white text-xl font-bold shadow-sm">
+      <div className="flex justify-between mx-auto items-center max-w-4xl">
+        <div className="cursor-pointer">
         <Link href={"/"}>Ozan Kersit</Link>
         </div>
       <div>
@@ -24,6 +25,8 @@ const Header = () => {
         </li>
         <MobileHeader/>
       </div>
+      </div>
+      
     </nav>
   );
 };

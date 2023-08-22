@@ -35,6 +35,7 @@ const Projects = () => {
         <span className="text-4xl underline">My Projects</span>
         <span className="text-blue text-2xl mt-6">Just click to view!</span>
       </div>
+      <div className="flex md:flex-row flex-col gap-5 max-w-4xl">
       <ProjectSection
         projectIcon={<AccountShopIcon />}
         projectLink="https://accountshop.vercel.app/"
@@ -59,6 +60,7 @@ const Projects = () => {
           <div key={item.id}>{item.icon}</div>
         ))}
       />
+      </div>
     </div>
   );
 };

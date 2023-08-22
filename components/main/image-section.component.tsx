@@ -16,8 +16,8 @@ const ImageSection: FC<IProps> = ({ imageSrc }) => {
       <Image
         src={`${imageSrc}`}
         alt="me"
-        width={100}
-        height={100}
+        width={200}
+        height={200}
         className="border-2 border-solid border-black rounded-[50%]"
       />
     </motion.div>

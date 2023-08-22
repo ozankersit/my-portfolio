@@ -3,7 +3,7 @@ import WebDeveloperIcon from "@/icons/web-developer-icon.component";
 const About = () => {
   return (
     <div
-      className="mt-10 flex flex-wrap items-center bg-white w-screen shadow-sm justify-center"
+      className="mt-10 md:pb-0 pb-10 flex flex-wrap items-center bg-white w-screen shadow-sm justify-center"
       id="about"
     >
       <div>
