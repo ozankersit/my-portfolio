@@ -6,6 +6,7 @@ import ReactIcon from "@/icons/react-icon.component";
 import SassIcon from "@/icons/sass-icon.component";
 import TailwindIcon from "@/icons/tailwind-icon.component";
 import TypeScriptIcon from "@/icons/typescript-icon.component";
+import VueIcon from "@/icons/vue-icon.component";
 import { motion } from "framer-motion";
 
 const technologies = [
@@ -17,6 +18,7 @@ const technologies = [
   { id: 6, icon: <NextjsIcon />, name: "NextJS" },
   { id: 7, icon: <TailwindIcon />, name: "Tailwind" },
   { id: 8, icon: <SassIcon />, name: "Sass" },
+  { id:9, icon: <VueIcon/>, name: "Vue.js" }
 ];
 
 const Stack = () => {
