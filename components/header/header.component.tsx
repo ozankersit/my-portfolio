@@ -16,7 +16,7 @@ const Header = () => {
         <Link href={"/"}>Ozan Kersit</Link>
         </div>
       <div>
-        <li className="list-none gap-3 cursor-pointer hidden xl:flex">
+        <li className="list-none gap-3 cursor-pointer hidden lg:flex">
             {linkElements.map((item) => (
                 <Link key={item.id} href={item.route}>
                     <ul className="hover:text-blue transition-colors duration-300">{item.str}</ul>

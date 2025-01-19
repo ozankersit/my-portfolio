@@ -17,7 +17,7 @@ const MobileHeader = () => {
   return (
     <div>
       <button
-        className="xl:hidden flex"
+        className="lg:hidden flex"
         onClick={() => setIsNavOpen(!isNavOpen)}
       >
         <MobileMenuIcon />
